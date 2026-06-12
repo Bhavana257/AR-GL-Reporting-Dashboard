@@ -1,52 +1,43 @@
-# Financial Modelling with Power BI (2026)
+# AR-GL Reporting Dashboard — Power BI
 
-Welcome to our updated sample site for Financial Modelling with Power BI.
+## Overview
+Developed a comprehensive financial modelling solution in Power BI 
+analyzing General Ledger transactions, Accounts Receivable, and 
+financial statements including P&L, Balance Sheet, and Cash Flow. 
+Leveraged DAX expressions and Power Query for data transformation, 
+GL-to-statement mapping, and period-over-period variance analysis 
+to support audit-ready financial reporting.
 
-This repos contains some of out widely adopted design patterns for Enterprise Financial Modelling 
-in PowerBI
+## Tools & Technologies
+- Power BI Desktop
+- DAX (custom measures and KPIs)
+- Power Query (ETL & data transformation)
+- Excel (GL and transaction data source)
+- SQL (AR database scripting)
 
-You can either download content here or cloen the repos and link it to a Workspace in Power BI.
-If you have a large/complex project and want help with the modelling you can also contact as at 
-(info@prodata.ie)
+## Key Features
+- P&L, Balance Sheet and Cash Flow reporting in Power BI
+- Accounts Receivable modelling with aging analysis
+- General Ledger to financial statement mapping
+- Period-over-period variance analysis
+- Audit-ready financial reporting structure
 
-## Contents
+## Project Files
+- `Finance-GL.pbix` — Power BI report for P&L, BS and Cash Flow
+- `Finance-AR.pbix` — Power BI report for AR modelling
+- `Statement.xlsx` — GL to statement mapping business rules
+- `Files/` — General Ledger and transaction data files
+- `Files/AR Scripts/` — SQL scripts for AR database
 
-- **Sample Power BI PBIX with P&L, BS and CF**  
-  [Finance-GL.pbix](./Files/Finance-GL.pbix)
+## Skills Demonstrated
+- Financial data modelling and analysis
+- DAX measure development for financial KPIs
+- Subledger reconciliation and GL mapping
+- Audit-ready reporting and documentation
+- Power Query data transformation and cleansing
 
-- **Sample Power BI PBIX for AR Modelling**  
-  [Finance-AR.pbix](./Files/Finance-AR.pbix)
-
-- **Sample GL files to import into Power BI (General Ledger & Transactions)**  
-  [Files Folder](./Files)
-
-- **Sample SQL Scripts to create AR SQLDB Data**  
-  [Files Folder](./Files/AR%20Scripts/)
-
-- **Sample business rules spreadsheet (GL → Statement mapping)**  
-  [Statement.xlsx](./Files/Statement.xlsx)
-
-- **V1 Content using the Statement Bridge (2016–2025)**  
-  [V1 Folder](./V1)
-
----
-
-## SQLBits Session (V1 Design)
-Want to see the original design pattern in action?
-[![SQLBits Power BI Financial Modelling Session](./image.png)](https://www.youtube.com/watch?v=hoGI1iNb9k0)
-🎥 [Watch the SQLBits session](https://www.youtube.com/watch?v=hoGI1iNb9k0)
-
-This session walks through the **Statement Bridge approach (V1)** and the thinking behind the model.
-
-
-## Cashflow Reporting (V1)
-[![Cashflow Reporting for the Enterprise](image-1.png)](https://www.youtube.com/watch?v=9iuW-zJvleQ&t=5s)
-🎥 [Watch the video on Cashflow Reporting](https://www.youtube.com/watch?v=9iuW-zJvleQ&t=5s)
-
----
-Feel free to download and explore.
-
-This design pattern has already been proven across multiple ERPs, including:
-- SAP  
-- M3  
-- Dynamics  
+## Future Improvements
+- Connect to live PeopleSoft GL data source
+- Add invoice aging and reimbursable billing tracker
+- Build automated reconciliation exception report
+- Integrate SharePoint for document management
